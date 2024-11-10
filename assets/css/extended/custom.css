@@ -1,0 +1,21 @@
+.home-info .entry-header {
+    position: relative;
+    overflow: visible;
+}
+
+.home-info img {
+    width: 144px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+
+    border: .5rem solid var(--border);
+}
+
+@media screen and (min-width: 390px) {
+    .home-info img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 0;
+    }
+}

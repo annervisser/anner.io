@@ -1,3 +1,69 @@
 baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: en-gb
+title: Anner Visser
+theme: PaperMod
+
+params:
+  env: production
+  assets:
+    disableHLJS: true
+    favicon: images/gamifying-psalm-baseline.png
+
+  ShowToc: true
+  TocOpen: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  ShowShareButtons: true
+  homeInfoParams:
+    Title: >
+      Hi, I'm **Anner**
+      ![](/images/anner.jpg)
+    Content: >
+      Software Engineer
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/annervisser"
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/annervisser"
+    - name: "Mastodon"
+      url: "https://phpc.social/@anner"
+    - name: "Email"
+      url: "mailto:blog@annervisser.nl"
+
+menu:
+  main:
+    - name: Search
+      url: search/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+    simple: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # For search
