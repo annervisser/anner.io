@@ -11,7 +11,7 @@
     border: .5rem solid var(--border);
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 460px) {
     .home-info img {
         position: absolute;
         right: 0;
