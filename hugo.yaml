@@ -20,7 +20,8 @@ params:
       Hi, I'm **Anner**
       ![Portrait of Anner](/images/anner.jpg)
     Content: >
-      Software Engineer
+      Software Engineer in the Netherlands<br>
+      focussing on testing and DevOps
 
   socialIcons: # optional
     - name: "GitHub"
