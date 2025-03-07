@@ -1,7 +1,6 @@
 ---
 date: '2025-03-07T18:00:00+01:00'
 title: 'Effective software engineering'
-draft: true
 ---
 
 These are some thought on how to excel as a developer within a team and company,
