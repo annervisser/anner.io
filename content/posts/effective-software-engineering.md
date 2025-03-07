@@ -3,7 +3,7 @@ date: '2025-03-07T18:00:00+01:00'
 title: 'Effective software engineering'
 ---
 
-These are some thought on how to excel as a developer within a team and company,
+These are some thoughts on how to excel as a developer within a team and company,
 both during your core activities and beyond them. They explain how I try to approach 
 my work and optimize job satisfaction for myself AND productivity for my team.
 
