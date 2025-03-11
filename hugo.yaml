@@ -18,10 +18,10 @@ params:
   homeInfoParams:
     Title: >
       Hi, I'm **Anner**
-      ![Portrait of Anner](/images/anner.jpg)
     Content: >
-      Software Engineer in the Netherlands<br>
+      Software Engineer from the Netherlands<br>
       focussing on testing and DevOps
+      ![Portrait of Anner](/images/anner.jpg)
 
   socialIcons: # optional
     - name: "GitHub"
